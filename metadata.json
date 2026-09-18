@@ -1,0 +1,6 @@
+{
+  "name": "KNOCKOUT – FAST-FOOD",
+  "description": "American-style fast food meets fight-night atmosphere, martial arts, and championship energy. Big Flavors. Stronger Punches!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

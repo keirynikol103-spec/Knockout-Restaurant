@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-bebas {
+    font-family: "Bebas Neue", impact, sans-serif;
+    letter-spacing: 0.05em;
+  }
+  .font-oswald {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 0.025em;
+  }
+  .fight-mesh {
+    background-image: radial-gradient(rgba(239, 68, 68, 0.12) 1px, transparent 1px), radial-gradient(rgba(37, 99, 235, 0.1) 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-position: 0 0, 12px 12px;
+  }
+  .arena-spotlight {
+    background: radial-gradient(circle at 50% 10%, rgba(220, 38, 38, 0.22) 0%, rgba(30, 58, 138, 0.15) 45%, transparent 75%);
+  }
+  .text-glow-red {
+    text-shadow: 0 0 16px rgba(239, 68, 68, 0.6), 0 0 32px rgba(239, 68, 68, 0.3);
+  }
+  .text-glow-blue {
+    text-shadow: 0 0 16px rgba(59, 130, 246, 0.6), 0 0 32px rgba(59, 130, 246, 0.3);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1017;
+}
+::-webkit-scrollbar-thumb {
+  background: #272f3d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ef4444;
+}
