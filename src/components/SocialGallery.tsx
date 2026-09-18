@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Sparkles, Instagram, Video, ExternalLink } from 'lucide-react';
 import { restaurantConfig } from '../data/restaurantConfig';
 import boxingArenaImage from '../assets/images/boxing_arena_lights_1789760115937.jpg';
+import hotChickenSandwichImage from '../assets/images/hot_chicken_sandwich_1789763273147.jpg';
 
 interface SocialPost {
   id: string;
@@ -38,7 +39,7 @@ export const SocialGallery: React.FC = () => {
       id: 'sp-2',
       category: 'Spicy Challenges',
       title: 'Roundhouse spicy chicken challenge at ringside',
-      media: 'https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?auto=format&fit=crop&w=600&q=80',
+      media: hotChickenSandwichImage,
       type: 'image',
       platform: 'tiktok'
     },

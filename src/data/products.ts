@@ -1,5 +1,6 @@
 import { Product } from '../types';
 import onionRingsImage from '../assets/images/crispy_onion_rings_1789758087480.jpg';
+import hotChickenSandwichImage from '../assets/images/hot_chicken_sandwich_1789763273147.jpg';
 
 export const products: Product[] = [
   // ================= ENTRADAS =================
@@ -182,7 +183,7 @@ export const products: Product[] = [
     price: 31000,
     description: "Jumbo crispy chicken breast dunked in kickboxing Nashville spicy oil, topped with creamy cider slaw, quick-pickles, and spicy habanero mayo on toasted brioche.",
     ingredients: ["Crispy Buttermilk Chicken Breast", "Nashville Hot Pepper Oil", "Cider Slaw", "Pickles", "Habanero Mayo", "Brioche"],
-    image: "https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?auto=format&fit=crop&w=800&q=80",
+    image: hotChickenSandwichImage,
     calories: 840,
     spiceLevel: 3,
     allergens: ["Gluten", "Milk", "Eggs"],
